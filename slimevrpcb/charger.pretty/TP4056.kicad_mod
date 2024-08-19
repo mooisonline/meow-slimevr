@@ -1,0 +1,166 @@
+(footprint "TP4056"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(tags "SOIC SO")
+	(property "Reference" "TP4056"
+		(at 0.479504 11.89612 0)
+		(layer "F.SilkS")
+		(uuid "3953aa76-a1f0-42b7-81ba-30829a6b9823")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TP4056 edited"
+		(at 0 27.94 0)
+		(layer "F.Fab")
+		(uuid "b5159c5e-0d8a-4b4c-a24b-c1e2e058f22c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65ca3156-ec96-4b15-b5ed-0612bbaecf9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1c768d7-f1d8-4c3c-9024-33fedd30a07d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "TP4056"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "257752c2-5996-457a-ac95-228c24b46c97")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.62 0)
+		(end -7.62 25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5668608e-d69b-4e62-9e7e-3aaf52502f10")
+	)
+	(fp_line
+		(start 8.88 0)
+		(end -7.62 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2467d153-154b-4a9c-8e4d-a379a45a4205")
+	)
+	(fp_line
+		(start 8.88 0)
+		(end 8.88 25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f6295e97-77cd-4138-90c1-1ec395951c42")
+	)
+	(fp_line
+		(start 8.88 25)
+		(end -7.62 25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8921ff16-8181-40ea-bc26-e3cdb8acd3ca")
+	)
+	(pad "1" thru_hole rect
+		(at -6.396882 1.928441 270)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ad31b789-15f7-4ea4-adb8-71b2ba3a87b4")
+	)
+	(pad "2" thru_hole rect
+		(at -3.856882 1.928441 270)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "17b4ce9b-cdbb-40dd-80e9-118dc72da82f")
+	)
+	(pad "3" thru_hole rect
+		(at 5.027038 1.912119 270)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e416c52-0a0e-411d-a65e-b3ebbed2ad5a")
+	)
+	(pad "4" thru_hole rect
+		(at 7.567038 1.912119 270)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37f5833e-9389-4028-bff6-e25c39fdbd42")
+	)
+	(pad "5" thru_hole rect
+		(at -6.396882 23.724376 270)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26ab2b57-0710-473d-8a66-5ee0007c25f4")
+	)
+	(pad "6" thru_hole rect
+		(at 7.618001 23.775339 270)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c5216f1-0e1c-4532-8552-e8070c9464a4")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
