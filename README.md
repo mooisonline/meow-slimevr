@@ -1,7 +1,7 @@
 ## MeowSlime PCB
 
 <p align="center">
-  <img width="400" src="">
+  <img width="400" src="https://github.com/mooisonline/meow-slimevr/blob/main/extra/meow%20gerb.PNG">
 </p>
 
 ## Project
