@@ -7,5 +7,7 @@
 ## Project
 Outdated slime vr tracker pcbs (currently being reworked). 
 For BNO085 and Wemos d1.
+These don't have a connection for an extension pcb.
+Approx 70mm x 36mm (want to make these smaller)
 
 
